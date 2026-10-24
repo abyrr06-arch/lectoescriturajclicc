@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="actividades_cuadernillo" version="0.1.3">
+ <settings>
+  <title>ACTIVIDADES CUADERNILLO</title>
+  <revision description="created" date="10/7/26" />
+  <author name="Rodriguez Rodriguez Mia Abigail" />
+  <author name="Hernandez Gonzalez Karen Vanessa" />
+  <organization name="UNISON CABORCA" />
+  <language>es</language>
+  <description>
+   <p>Interactivo para la fase 3 de educación básica en el campo formativo de Lenguajes</p>
+  </description>
+  <descriptors area-codes="lleng" level-codes="PRI" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Interactivo para la fase 3 de educación básica en el campo formativo de Lenguajes</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="ASOCIACIÓN DE LETRAS A IMÁGENES" />
+  <item name="ASOCIACIÓN IMÁGEN A IMÁGEN" />
+  <item name="ROMPECABEZAS LECTOESCRITURA" />
+  <item name="PORTADA" />
+  <item name="SOPA DE LETRAS LECTOESCRITURA" />
+  <item name="LECTOESCRITURA" />
+  <item name="LECTOESCRITURA TRES" />
+  <item name="LECTOESCRITURADOS" />
+  <item name="LECTOESCRITURA CUATRO" />
+  <item name="LECTOESCRITURA CINCO" />
+ </sequence>
+ <activities>
+  <activity class="@associations.ComplexAssociation" name="ASOCIACIÓN DE LETRAS A IMÁGENES" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Bell MT" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCCC" />
+     </style>
+     <p>Bienvenidos! Asocia letras con imágenes</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCCC" />
+     </style>
+     <p>Muy bien hecho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x9999FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="200.0" cellHeight="100.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="1" image="ARBOL.jpg">
+     <style>
+      <font family="Bell MT" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="0" image="OSO.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="3" image="MAMÁ.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="2" image="PERRO.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="200.0" cellHeight="100.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>O de</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>A de</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>P de</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>M de</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="ASOCIACIÓN IMÁGEN A IMÁGEN" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCCC" />
+     </style>
+     <p>Une las imágenes</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCCC" />
+     </style>
+     <p>En hora buena!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x9999FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="197.0" cellHeight="100.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="2" image="SACA.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="3" image="SAME.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="1" image="TAPELO.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCFFFF" />
+     </style>
+    </cell>
+    <cell id="0" image="MACA.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF9999" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="200.0" cellHeight="100.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="CAMA.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFF9999" background="0xFF9999" />
+     </style>
+    </cell>
+    <cell image="PELOTA.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCFFFF" />
+     </style>
+    </cell>
+    <cell image="CASA.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="MESA.jpg">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="PORTADA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Bell MT" size="18" bold="true" />
+      <color foreground="0xF0F0F0" background="0xCCCCFF" />
+     </style>
+     <p>BIENVENIDOS !</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="¿INTERACTIVO-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="ROMPECABEZAS LECTOESCRITURA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" />
+     </style>
+     <p>Completa el rompecabezas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" />
+     </style>
+     <p>Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x9999FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="4" cols="3" border="true" image="LECTOESCRITURA-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="4" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="SOPA DE LETRAS LECTOESCRITURA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Bell MT" size="18" bold="true" />
+      <color foreground="0xF0F0F0" background="0xCCCCFF" />
+     </style>
+     <p>Resolvamoslo juntos!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="22" bold="true" />
+      <color foreground="0xF0F0F0" background="0xCCCCFF" border="0xF0F0F0" />
+     </style>
+     <p>MUY BIEN HECHO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true" />
+   </settings>
+   <textGrid rows="12" columns="12" cellWidth="23.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>ALUNDGEOLSAV</row>
+     <row>DCASASNOLGJM</row>
+     <row>QLACOLASDOKA</row>
+     <row>MIAVANUESSAF</row>
+     <row>TWICEFRNANAA</row>
+     <row>CAPMIOLAATOH</row>
+     <row>SAPSNARIZJAJ</row>
+     <row>APELOTAMNAKK</row>
+     <row>LORGATOSAJEN</row>
+     <row>ASRJAJCAMALO</row>
+     <row>MOOCOMOCREES</row>
+     <row>NOOMESASIINO</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">CASA</clue>
+    <clue id="1">LUNA</clue>
+    <clue id="2">GATO</clue>
+    <clue id="3">PELOTA</clue>
+    <clue id="4">CAMA</clue>
+    <clue id="5">MESA</clue>
+    <clue id="6">PERRO</clue>
+    <clue id="7">NARIZ</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Complete" name="LECTOESCRITURA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Bell MT" size="22" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Responde correctamente!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Muy bien hecho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true">
+     <size width="500" height="600" />
+    </window>
+   </settings>
+   <checkButton />
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                                     </text>
+      <cell width="400" height="200" image="FLOR.png" />
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                     </text>
+      <text family="Bell MT" background="0xFFFFFF" size="26" bold="true"> La </text>
+      <target>flor</target>
+      <text family="Bell MT" background="0xFFFFFF" size="26" bold="true"> tiene pétalos.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Complete" name="LECTOESCRITURADOS" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Completa la frase!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Muy bien hecho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true">
+     <size width="500" height="600" />
+    </window>
+   </settings>
+   <checkButton />
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <cell width="200" height="200" image="casaaa.jpg" />
+      <text family="Arial" background="0xFFFFFF">                                                                                                                    </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                    Mi </text>
+      <target>casa</target>
+      <text family="Arial" background="0xFFFFFF"> es muy bonita.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Complete" name="LECTOESCRITURA TRES" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Completa la frase!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Muy bien hecho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton />
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                                         </text>
+      <cell width="150" height="200" image="PEZ.png" />
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                                                El </text>
+      <target>pez</target>
+      <text family="Arial" background="0xFFFFFF"> vive en el agua.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <cell width="200" height="100">
+       <style>
+        <font family="Bell MT" size="28" bold="true" />
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Complete" name="LECTOESCRITURA CUATRO" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Completa la frase!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Muy bien hecho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton />
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                        </text>
+      <cell width="300" height="200" image="PELOTAAA.jpg" />
+      <text family="Arial" background="0xFFFFFF">                                                                                           </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                                       A mi me gusta jugar con la </text>
+      <target>pelota</target>
+      <text family="Arial" background="0xFFFFFF">.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Complete" name="LECTOESCRITURA CINCO" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Completa la frase!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Bell MT" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Muy bien hecho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton />
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                  </text>
+      <cell width="100" height="40" />
+      <cell width="200" height="200" image="PERRITO.jpg" />
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                                                       </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">                                                                     Yo tengo de mascota un </text>
+      <target>perro</target>
+      <text family="Arial" background="0xFFFFFF">.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="ARBOL.jpg" file="arbol.jpg" />
+  <media name="CAMA.jpg" file="cama.jpg" />
+  <media name="CASA.jpg" file="casa.jpg" />
+  <media name="casaaa.jpg" file="casaaa.jpg" />
+  <media name="LECTOESCRITURA-resized.jpg" file="lectoescritura-resized.jpg" />
+  <media name="MACA.jpg" file="maca.jpg" />
+  <media name="MAMÁ.jpg" file="mama.jpg" />
+  <media name="MESA.jpg" file="mesa.jpg" />
+  <media name="OSO.jpg" file="oso.jpg" />
+  <media name="PELOTA.jpg" file="pelota.jpg" />
+  <media name="PELOTAAA.jpg" file="pelotaaa.jpg" />
+  <media name="PERRITO.jpg" file="perrito.jpg" />
+  <media name="PERRO.jpg" file="perro.jpg" />
+  <media name="SACA.jpg" file="saca.jpg" />
+  <media name="SAME.jpg" file="same.jpg" />
+  <media name="TAPELO.jpg" file="tapelo.jpg" />
+  <media name="¿INTERACTIVO-resized.jpg" file="_interactivo-resized.jpg" />
+  <media name="FLOR.png" file="flor.png" />
+  <media name="PEZ.png" file="pez.png" />
+ </mediaBag>
+</JClicProject>
+
