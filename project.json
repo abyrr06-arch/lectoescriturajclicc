@@ -1,0 +1,70 @@
+{
+  "title": "ACTIVIDADES CUADERNILLO",
+  "author": "Rodriguez Rodriguez Mia Abigail, Hernandez Gonzalez Karen Vanessa",
+  "school": "UNISON CABORCA",
+  "date": "7/10/26",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "areas": {
+    "es": "Lenguas"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "es": "Primaria (6-12)"
+  },
+  "description": {
+    "es": "Interactivo para la fase 3 de educación básica en el campo formativo de Lenguajes"
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "actividades_cuadernillo.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 10,
+  "mediaFiles": 24,
+  "totalSize": 584226,
+  "files": [
+    "_interactivo-resized.jpg",
+    "actividades_cuadernillo.jclic",
+    "actividades_cuadernillo.jclic.js",
+    "arbol.jpg",
+    "cama.jpg",
+    "casa.jpg",
+    "casaaa.jpg",
+    "favicon.ico",
+    "flor.png",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "lectoescritura-resized.jpg",
+    "maca.jpg",
+    "mama.jpg",
+    "mesa.jpg",
+    "oso.jpg",
+    "pelota.jpg",
+    "pelotaaa.jpg",
+    "perrito.jpg",
+    "perro.jpg",
+    "pez.png",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "saca.jpg",
+    "same.jpg",
+    "tapelo.jpg"
+  ]
+}
